@@ -2,9 +2,10 @@ import React from 'react'
 import Header from '../Header'
 import Showcaseconnect from '../Showcaseconnect'
 import Visitmailsection from '../Visitmailsection'
-import Messagesection from '../Messagesection'
+
 import Mapsection from '../Mapsection'
 import Footer from '../Footer'
+import ContactForm from '../ContactForm'
 
 const Contacts = () => {
   return (
@@ -12,7 +13,7 @@ const Contacts = () => {
       <Header />
       <Showcaseconnect />
       <Visitmailsection />
-      <Messagesection />
+      <ContactForm />
       <Mapsection />
       <Footer /> 
     </div>

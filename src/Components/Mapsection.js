@@ -3,7 +3,7 @@ import Map from '../assets/images/Map.png'
 const Mapsection = () => {
   return (
     <div>
-        <section class="map-section">
+        <section className="map-section">
     <img src={Map} alt="location map" />
 </section>
     </div>

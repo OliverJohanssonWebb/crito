@@ -7,8 +7,8 @@ import Gobana from '../assets/images/Gobana.png'
 const SponsorImages = () => {
   return (
     <div>
-    <div class="sponsors-images">
-    <div class="container">
+    <div className="sponsors-images">
+    <div className="container">
         <img src={Paperz}  alt="" />
         <img src={Dorfus} alt="Dorfus logo" />
         <img src={Martino} alt="Martino logo" />

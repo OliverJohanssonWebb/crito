@@ -18,6 +18,7 @@ root.render(
         <Route path='/' element={<Home />} />
         <Route path='/Contacts' element={<Contacts />} />    
         <Route path='*' element={<NotFound />} />
+        <Route path='/test' element={<test />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
