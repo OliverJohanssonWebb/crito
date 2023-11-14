@@ -10,7 +10,6 @@ const NotFound = () => {
         <h1>Page not found. Our goblins are working on it.</h1>
         <Notfoundgoblins />
         <Footer />
-
     </div>
   )
 }

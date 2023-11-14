@@ -14,8 +14,7 @@ const Contacts = () => {
       <Visitmailsection />
       <Messagesection />
       <Mapsection />
-      <Footer />
-     
+      <Footer /> 
     </div>
   )
 }
