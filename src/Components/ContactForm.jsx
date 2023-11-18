@@ -13,7 +13,7 @@ const [messageError, setMessageError] = useState('')
 const [errorMessage, setErrorMessage] = useState('')
 
 const handleChange = (e) => {
-    console.log(e.target.value)
+    
    switch (e.target.name) {
     case 'name':
         setName(e.target.value)
