@@ -1,0 +1,32 @@
+.showcase-connect {
+    height: 300px;
+    background-color: #F0EFE9;
+  }
+  .showcase-connect .bild {
+    position: relative;
+  }
+  .showcase-connect .container {
+    padding-top: 100px;
+  }
+  .showcase-connect .container .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .showcase-connect .container .links a {
+    text-decoration: none;
+    color: black;
+  }
+  .showcase-connect .container .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .showcase-connect .container .title h1 {
+    font-weight: 700;
+  }
+  .showcase-connect .container img {
+    margin-top: -95px;
+    margin-left: -319px;
+  }

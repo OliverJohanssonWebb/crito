@@ -1,4 +1,5 @@
 import React from 'react'
+import './Articleandnewssection.css'
 import Classroom from '../assets/images/Classroom.png'
 import Projects from '../assets/images/projects.png'
 import Design from '../assets/images/Design.png'

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Mapsection.css'
 import Map from '../assets/images/Map.png'
 const Mapsection = () => {
   return (

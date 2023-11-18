@@ -1,4 +1,5 @@
 import React from 'react'
+import './Testemonialsection.css'
 import Kristine from '../assets/images/Kristine.png'
 import Mark from '../assets/images/Mark.png'
 import Kimberly from '../assets/images/Kimberly.png'

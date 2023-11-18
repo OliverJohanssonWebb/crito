@@ -1,0 +1,91 @@
+.agency-section {
+    margin-top: -160px;
+    position: relative;
+  }
+  .agency-section .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .agency-section .container .icons-and-text .section-title {
+    max-width: 400px;
+    margin-top: -150px;
+  }
+  .agency-section .container .icons-and-text h5 {
+    font-weight: 600;
+  }
+  .agency-section .container .icons-and-text .exellence {
+    display: flex;
+    align-items: center;
+  }
+  .agency-section .container .icons-and-text .exellence i {
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .agency-section .container .icons-and-text .strategic {
+    display: flex;
+    align-items: center;
+  }
+  .agency-section .container .icons-and-text .strategic i {
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .agency-section .container .icons-and-text .experience {
+    display: flex;
+    align-items: center;
+  }
+  .agency-section .container .icons-and-text .experience i {
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .agency-section .container .icons-and-text .artificial {
+    display: flex;
+    align-items: center;
+  }
+  .agency-section .container .icons-and-text .artificial i {
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .agency-section .container img {
+    margin-top: 30px;
+    margin-right: -303px;
+  }

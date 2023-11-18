@@ -1,0 +1,45 @@
+.project-and-case-section .container .section-title {
+    text-align: center;
+  }
+  .project-and-case-section .container .project-and-cases {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  @media (min-width: 768px) {
+    .project-and-case-section .container .project-and-cases {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .project-and-case-section .container .project-and-cases article img {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+  .project-and-case-section .container .project-and-cases article h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 35px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #dad9d3;
+  }
+  .project-and-case-section .container .project-and-cases article a {
+    padding: 15px;
+    display: block;
+    text-align: right;
+    font-family: "inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #191919;
+  }
+  .project-and-case-section .container .project-and-cases article a i {
+    margin-left: 3px;
+  }
+  .project-and-case-section .container .center-content {
+    margin-top: 50px;
+    margin-bottom: 90px;
+  }

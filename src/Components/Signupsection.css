@@ -1,0 +1,31 @@
+.signup-section {
+    background-color: #F0EFE9;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+  }
+  .signup-section .container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .signup-section .container .title {
+    margin-right: 380px;
+  }
+  .signup-section .container .title h2 {
+    font-weight: 700;
+  }
+  .signup-section .container .mail-input {
+    width: 300px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 35px;
+    padding: 10px;
+  }
+  .signup-section .container .mail-input input {
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }

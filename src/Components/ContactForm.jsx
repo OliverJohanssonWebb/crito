@@ -1,4 +1,6 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import style from '../Components/ContactFormStyle.scss'
+
 
 const ContactForm = () => {
 
@@ -68,7 +70,7 @@ const handleSubmit = async (e) => {
             });
 
             if (result.status === 200) 
-                alert('Lyckades!')
+                alert('Message sent!')
              else 
                 setErrorMessage('Något gick fel')
             
@@ -76,24 +78,31 @@ const handleSubmit = async (e) => {
 }
 
 return (
+    <section className="contactForm-section">
     <div className="container">
+        <div className="section-title">
+        <h2>Leave us a message for any information.</h2>
+    </div>    
+    <div className="submitForm">
     <form onSubmit={handleSubmit} noValidate>
         <p className="errorMessage">{errorMessage}</p>
         <div className="input-group">
-            <label className={`${nameError ? 'error': ''}`}>{`Name ${nameError ? ' is required' :'' }`} </label>
-            <input type="text" name="name" value={name} onChange={(e) => handleChange(e)} />
+            <label className={`${nameError ? 'error': ''}`}>{`* ${nameError ? '*' :'' }`} </label>
+            <input placeholder="Name"type="text" name="name" value={name} onChange={(e) => handleChange(e)} />
         </div>
         <div className="input-group">
-            <label className={`${emailError ? 'error': ''}`}>{`Email ${emailError ? ' is required' :'' }`}</label>
-            <input type="email" name="email" value={email} onChange={(e) => handleChange(e)} />
+            <label className={`${emailError ? 'error': ''}`}>{`* ${emailError ? ' *' :'' }`}</label>
+            <input placeholder="Email"type="email" name="email" value={email} onChange={(e) => handleChange(e)} />
         </div>
-        <div className="input-group">
-            <label className={`${messageError ? 'error': ''}`}>{`Your message ${messageError ? ' is required' :'' }`}</label>
-            <input type="text" name="message" value={message} onChange={(e) => handleChange(e)} />
+        <div className="input-group-extra">
+            <label className={`${messageError ? 'error': ''}`}>{`* ${messageError ? '*' :'' }`}</label>
+            <input placeholder="Message" type="text" name="message" value={message} onChange={(e) => handleChange(e)} />
         </div>
-        <button type="submit">tryck här</button>  
+        <button className="btn-yellow" type="submit">Send message<i class="fa-solid fa-arrow-turn-up"></i></button>  
     </form>
     </div>
+    </div>
+    </section>
 
 
 

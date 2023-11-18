@@ -1,4 +1,5 @@
 import React from 'react'
+import './Aboutcompanysection.css'
 import Samantha from '../assets/images/Samantha.png'
 const Aboutcompanysection = () => {
   return (

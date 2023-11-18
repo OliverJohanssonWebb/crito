@@ -1,0 +1,43 @@
+.team-member-section {
+    background-color: #F0D082;
+  }
+  .team-member-section .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .team-member-section .knapp {
+    display: flex;
+    height: 50px;
+    margin-top: 150px;
+  }
+  
+  .Team-pictures {
+    background-color: #F0D082;
+  }
+  .Team-pictures a {
+    padding-bottom: 100px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .Team-pictures .container {
+    display: flex;
+    gap: 25px;
+  }
+  .Team-pictures .container h5 {
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .Team-pictures .dots {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 10px;
+    padding-bottom: 50px;
+    color: gray;
+    opacity: 50%;
+    height: 5px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }

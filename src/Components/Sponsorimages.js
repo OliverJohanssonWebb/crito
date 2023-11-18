@@ -1,4 +1,5 @@
 import React from 'react'
+import './Sponsorimages.css'
 import Paperz from '../assets/images/Paperz.png'
 import Dorfus from '../assets/images/Dorfus.png'
 import Martino from '../assets/images/Martino.png'

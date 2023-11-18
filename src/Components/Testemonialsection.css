@@ -1,0 +1,56 @@
+.testimonial-section {
+    background-color: #F0D082;
+    padding-bottom: 120px;
+  }
+  .testimonial-section .container {
+    background-color: white;
+  }
+  .testimonial-section .container img {
+    padding-bottom: 20px;
+  }
+  .testimonial-section .container .section-title-center {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 110px;
+  }
+  .testimonial-section .container .section-title-center h2 {
+    color: #191919;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .testimonial-section .container .section-title-center p {
+    color: red;
+    margin-bottom: 10px;
+  }
+  .testimonial-section .container .reviews {
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+  }
+  .testimonial-section .container .reviews h5 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+  }
+  .testimonial-section .container .reviews p {
+    max-width: 260px;
+  }
+  .testimonial-section .container .reviews .content p {
+    color: red;
+  }
+  .testimonial-section .container .reviews .customer {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .testimonial-section .container .btn-transparent {
+    font-weight: 400;
+    background-color: black;
+    color: white;
+  }
+  .testimonial-section .container .knapp {
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Projectandcasesection.css'
 import Grow from '../assets/images/Grow.png'
 import Responsive from '../assets/images/Responsive.png'
 import Results from '../assets/images/Results.png'

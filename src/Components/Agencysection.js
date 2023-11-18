@@ -1,4 +1,5 @@
 import React from 'react'
+import './Agencysection.css'
 import whyChooseUs from '../assets/images/whychooseus.png'
 const Agencysection = () => {
   return (

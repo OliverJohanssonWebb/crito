@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Serviceandconsultingsection.css'
 const Serviceandconsultingsection = () => {
   return (
     <div>

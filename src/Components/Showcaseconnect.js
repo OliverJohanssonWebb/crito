@@ -1,4 +1,5 @@
 import React from 'react'
+import './Showcaseconnect.css'
 import Bgbild2 from '../assets/images/bgbild2.png'
 const Showcaseconnect = () => {
   return (

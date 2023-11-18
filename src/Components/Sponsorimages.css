@@ -1,0 +1,10 @@
+.sponsors-images .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  .sponsors-images .container img {
+    max-width: 20%;
+    height: auto;
+  }

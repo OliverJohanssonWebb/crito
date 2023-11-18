@@ -1,0 +1,17 @@
+.article-news-section .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .article-news-section .knapp {
+    display: flex;
+    height: 50px;
+    margin-top: 150px;
+  }
+  
+  .article-and-news .container .articles {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    height: 500px;
+  }
+  

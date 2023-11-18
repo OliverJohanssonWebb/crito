@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Partnerborder.css'
 const Partnerborder = () => {
   return (
     <div><div className="container partner border">

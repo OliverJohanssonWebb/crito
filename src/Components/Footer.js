@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.css'
 import Logovit from '../assets/images/Logovit.png'
 
 const Footer = () => {

@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../assets/images/Logo.svg'
+import './Header.css'
 const Header = () => {
   return ( 
     <header>
@@ -32,10 +33,10 @@ const Header = () => {
         </div>
         <div className="main-menu">
             <nav>
-                <a className="active" href="index.html">Home</a>
+                <a className="active" href="/">Home</a>
                 <a href="service.html">Service</a>
                 <a href="news.html">News</a>
-                <a href="contact.html">Contact</a>
+                <a href="/Contacts">Contact</a>
             </nav>
             <a className="btn-yellow" href="login.html">Login<i className="fa-solid fa-arrow-turn-up"></i></a>
             </div>

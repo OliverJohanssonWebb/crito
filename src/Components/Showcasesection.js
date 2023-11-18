@@ -1,5 +1,6 @@
 import React from 'react'
 import showcaseImage from '../assets/images/Showcase.png'
+import './Showcasesection.css'
 const Showcasesection = () => {
   return (
     <div>
